@@ -1,0 +1,12 @@
+
+ALTER TABLE jobapplications
+ALTER COLUMN AdvertisementId TYPE INTEGER;
+
+
+
+ALTER TABLE Advertisements
+ALTER COLUMN CompanyId TYPE INTEGER;
+
+
+ALTER TABLE Companies
+ALTER COLUMN Employees TYPE INTEGER;

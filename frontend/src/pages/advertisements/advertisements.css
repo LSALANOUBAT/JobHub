@@ -1,0 +1,36 @@
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.advertisements-container {
+    width: 80%;
+    background-color: #ffffff30;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+.advertisements-title {
+    width: 100%;
+}
+
+.logo {
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    animation: loadingAnimation 4.5s infinite;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
